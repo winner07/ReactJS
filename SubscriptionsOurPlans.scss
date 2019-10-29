@@ -1,0 +1,202 @@
+.subscriptions-our-plans {
+
+  &__header {
+    padding: 20px 16px 110px;
+    background: url('/k-img/prime/bg1.png') no-repeat bottom center / cover;
+    font: 14px/1.21 "Galano Medium";
+    letter-spacing: -0.79px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+
+    h4 {
+      margin: 0;
+      font: 18px/1.67 "Galano Semi Bold";
+      letter-spacing: -1.46px;
+      color: #fff;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &__body {
+    padding: 0 16px 16px;
+  }
+
+  &__features-slider {
+    margin: -90px -16px 5px;
+
+    .slick-slide {
+      padding: 0 5px;
+    }
+
+    .slick-dots {
+      bottom: -3px;
+
+      li {
+        margin: 0 3px;
+        width: auto;
+        height: auto;
+
+        button {
+          width: 6px;
+          height: 6px;
+          padding: 0;
+          background: rgba(46, 59, 80, 0.2);
+          border-radius: 50%;
+
+          &:before {
+            content: none;
+          }
+        }
+
+        &.slick-active {
+
+          button {
+            background: #ffb53a;
+          }
+        }
+      }
+    }
+
+    &-card {
+      display: block !important;
+      min-height: 154px;
+      margin: 30px 0 20px;
+      padding: 30px 10px;
+      position: relative;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 3px 20px 0 rgba(46, 59, 80, 0.1);
+      color: rgba(46, 59, 80, 0.6);
+      font: 14px/1.29 "Galano Medium";
+      letter-spacing: -0.79px;
+      text-align: center;
+
+      &-icon {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: -30px;
+        left: calc(50% - 30px);
+      }
+
+      p {
+        margin: 0;
+      }
+
+      h4 {
+        margin: 0 0 10px;
+        color: #2e3b50;
+        font: 18px/1.1 "Galano Semi Bold";
+        letter-spacing: -1.46px;
+      }
+    }
+  }
+
+  &__see-all-features {
+    margin-bottom: 16px;
+    padding: 0 19px;
+    text-align: center;
+
+    a {
+      font: 14px/1.79 "Galano Medium";
+      letter-spacing: -0.79px;
+      color: #1f9aff;
+    }
+  }
+
+  &__title {
+    margin: 0 0 16px;
+    font: 18px/1.1 "Galano Semi Bold";
+    letter-spacing: -1.08px;
+    color: #2d3954;
+    text-align: center;
+
+    span {
+      letter-spacing: -1px;
+      color: #f65548;
+    }
+  }
+
+  &__tabs-body {
+    padding: 20px 0;
+  }
+
+  &__features {
+    text-align: center;
+
+    &-icon {
+      width: 50px;
+      height: 50px;
+      margin: 0 auto 10px;
+      border-radius: 10px;
+      background: #ffb700;
+      text-align: center;
+      font-size: 20px;
+      line-height: 50px;
+      color: #fff;
+    }
+
+    h2 {
+      margin: 0 0 20px;
+      font: 20px/1.2 "Galano Semi Bold", "Open Sans_", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #2e3b51;
+      
+      span {
+        color: #ffb700;
+      }
+    }
+
+    &-description {
+      font: 12px/1.5 "Galano Medium", "Open Sans_", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: rgba(46, 59, 80, 0.6);
+    }
+
+    &-list {
+      margin: 0;
+      list-style: none;
+      font: 10px/1.5 "Galano Medium", "Open Sans_", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-align: left;
+
+      &-item {
+        margin-bottom: 20px;
+        padding-right: 20px;
+        position: relative;
+
+        &-icon {
+          width: 16px;
+          height: 16px;
+          position: absolute;
+          top: 0;
+          right: 0;
+          background-color: #279efc;
+          border-radius: 50%;
+          font-size: 12px;
+          color: #fff;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  &__description {
+    max-width: 350px;
+    margin: 0 auto 10px;
+    font: 11px/1.64 "Galano Medium", "Open Sans_", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: -1.2px;
+    color: rgba(46, 59, 80, 0.5);
+    text-align: center;
+
+    a {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: #1f9aff;
+      font-size: 14px;
+      line-height: 1.29;
+      letter-spacing: -1.2px;
+      text-decoration: none;
+    }
+  }
+}
